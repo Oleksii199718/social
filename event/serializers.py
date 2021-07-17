@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 
 class SubcategorySerializer(serializers.ModelSerializer):
-    """Серіалізація підкатегорій."""
+    """Серіалізація підкатегорій!"""
 
     class Meta:
         model = SubcategoryEvent
